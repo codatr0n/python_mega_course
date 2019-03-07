@@ -10,9 +10,9 @@ window = Tk()  # create program window
 window.title('Weight converter')
 
 def kg_convert():
-    # txt1.delete(1.0, END)  # clear value first
-    # txt2.delete(1.0, END)
-    # txt3.delete(1.0, END)
+    txt1.delete(1.0, END)  # clear value first
+    txt2.delete(1.0, END)
+    txt3.delete(1.0, END)
 
     grams = float(entr1_value.get()) * 1000
     pounds = float(entr1_value.get()) * 2.20462
